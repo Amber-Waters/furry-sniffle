@@ -1,0 +1,19 @@
+class TerminatorsOrgMember{
+  constructor(name,department,role){
+  this._name = name
+  this._dept = department
+  this._role = role
+  }
+  get name(){
+    return this._name
+  }
+  get department(){
+    return this._dept
+  }
+  get role(){
+    return this._role
+  }
+  
+  greet(){
+    console.log(`Welcome ${this._name} to the Terminators family. The {this._dept} looks forward to working with you in the ${this._role}.`) }
+ }
